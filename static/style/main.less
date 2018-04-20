@@ -1,0 +1,34 @@
+.mpVueStar{
+  position: absolute;
+}
+.mpVue_ground {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.mpvue_icon {
+  z-index: 888; 
+}
+.mpVue_decoration {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-position: 0 0;
+  transition: background-position 1s steps(25);
+  transition-duration: 0s;
+}
+.mpVue_decoration--active{
+    transition-duration: 1s;
+    background-position: -2500px 0;
+}
+.i-star__text {
+  font-size: 36px;
+  user-select: none;
+}
